@@ -2,6 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 #header-img{
@@ -22,6 +23,7 @@ header{
 .nav-menu{
     width: 80vw;
     height: 60px;
+    
 }
 
 .zomato{
@@ -47,6 +49,7 @@ header{
     cursor: pointer;
     font-size: 18px;
 }
+
 
 .search-box{
     width: 30vw;
@@ -291,6 +294,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;  
     padding-left: 10px;
+    align-items: center;
 }
 
 .company{
@@ -299,6 +303,8 @@ header{
     color: rgb(130, 130, 130);
     line-height: 10px;
     margin-left: 36px;
+    display: block;
+    align-items: center;
 }
 
 .footer-section{
@@ -308,6 +314,8 @@ header{
     text-align: center;
     color: rgb(130, 130, 130);
     font-size: 14px;
+    display: block;
+    align-items: center;
 }
 
 .hifen{
